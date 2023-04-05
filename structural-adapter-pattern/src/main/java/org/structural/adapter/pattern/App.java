@@ -22,7 +22,7 @@ public class App
         System.out.println( "*******************" );
 
         System.out.println( "Using adapter" );
-        UiServiceAdapter adapter = new UiServiceAdapter();
+        Restaurant adapter = new UiServiceAdapter();
         adapter.displayMenus(xmlData);
     }
 }
